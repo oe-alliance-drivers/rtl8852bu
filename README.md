@@ -72,7 +72,7 @@ Note: Additional CPU architectures may work but have not been tested.
 ### Compatible Kernels
 
 - Kernels: 5.15 - 6.14 (Realtek)
-- Kernels: 6.15 - 7.0  (community support)
+- Kernels: 6.15 - 7.1  (community support)
 
 Note: Kernels earlier than 5.15 may work but have not been tested.
 
@@ -87,7 +87,7 @@ which can be provided via PR or message in Issues.
 
 - [Arch Linux](https://www.archlinux.org) (kernels 5.4 and 5.11)
 
-- [Debian](https://www.debian.org/) (kernels 6.1 and 6.12)
+- [Debian](https://www.debian.org/) (kernels 6.1, 6.12 and 6.18)
 
 - [Fedora](https://getfedora.org) Fedora 38 (6.2.13-300)
 
