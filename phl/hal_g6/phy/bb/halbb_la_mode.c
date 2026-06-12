@@ -324,7 +324,7 @@ bool halbb_la_mac_cfg_buf(struct bb_info *bb, enum la_buff_mode_t mode)
 	}
 
 	if (buf->buffer_size == 0) {
-		BB_WARNING("[%s] Buf=0\n", __func__);
+//		BB_WARNING("[%s] Buf=0\n", __func__);
 		return false;
 	}
 	rtw_hal_mac_lamode_cfg_buf(bb->hal_com, cfg->mac_la_buf_sel, &addr_start, &addr_end);
@@ -588,8 +588,8 @@ void halbb_la_bb_set_smp_rate(struct bb_info *bb, u8 fix_mode_en,
 	la->la_smp_rate = smp_rate_tmp;
 	la->la_smp_rate_log = (smp_rate_tmp == LA_SMP_CLK_160) ? 160 : (80 >> smp_rate_tmp);
 
-	BB_TRACE("[%s] smp_rate_tmp=%d, la_smp_rate_log=%d M\n",
-		 __func__, smp_rate_tmp, la->la_smp_rate_log);
+//	BB_TRACE("[%s] smp_rate_tmp=%d, la_smp_rate_log=%d M\n",
+//		 __func__, smp_rate_tmp, la->la_smp_rate_log);
 }
 
 void halbb_la_bb_set_cmn_reset(struct bb_info *bb)

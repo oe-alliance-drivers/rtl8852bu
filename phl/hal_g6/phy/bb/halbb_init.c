@@ -175,7 +175,7 @@ void halbb_cck_rpl_ofst_ref_init(struct bb_info *bb)
 	#endif
 
 	default:
-		BB_WARNING("[%s] There is no cck_rpl_ofst_ref !\n", __func__);
+//		BB_WARNING("[%s] There is no cck_rpl_ofst_ref !\n", __func__);
 		break;
 	}
 }
